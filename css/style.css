@@ -1,0 +1,41 @@
+body {
+    background-color: #eee;
+}
+
+table {
+    width: 40%;
+    border: 1px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th {
+    border: 1px solid #000;
+    width: 40%;
+    font-size: 20px;
+    margin: 0;
+}
+
+table td {
+    word-wrap: break-word;
+    max-width: 1px;
+}
+
+table td:first-child {
+    border-right: 1px solid #000;
+}
+
+tr {
+    border: 1px solid #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-button {
+    align-items: center;
+    text-align: center;
+}
